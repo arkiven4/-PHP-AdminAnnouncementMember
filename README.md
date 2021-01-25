@@ -19,8 +19,15 @@ $conn = mysqli_connect('Host', 'username', 'password', 'dbname', 'port');
 //Example
 $conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'devone_mbr');
 ```
+- Done
 
-
+### Setting Admin
+- Register Your Account in the register page
+- Open phpMyAdmin
+- Goto to your database
+- Select `user_data` table
+- Find your email, or whatsapp, and change the admin from `0` to `1`
+- In the member area, log out and log in again to apply the change
 
 
 
