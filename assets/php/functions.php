@@ -1,6 +1,6 @@
 <?php 
-//$conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'devone_mbr');
-$conn = mysqli_connect('localhost', 'root', '', 'devone_mbr');
+$conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'devone_mbr');
+//$conn = mysqli_connect('localhost', 'root', '', 'devone_mbr');
 
 function query($query)
 {
