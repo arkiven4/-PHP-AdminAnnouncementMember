@@ -1,14 +1,17 @@
 # Admin Announce System
 ## Getting Started
 ### Instalation
-Place All file in your server
-
-Import SQL file to your database, see [this link](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb) or use this command : 
-```bash
+- Place All file in your server
+- Import SQL file to your database, see [this link](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb) or use this command : 
+```sh
 $ mysql -u username -p database_name < file.sql
 ```
-
-
+- Go to `assets/php/theme.php` and change some variable
+> theme.php
+```php 
+$GLOBALS['rootlink'] = "YOUR SITE LINK";
+$GLOBALS['Site Title'] = "YOUR SITE TITLE";
+```
 
 
 
