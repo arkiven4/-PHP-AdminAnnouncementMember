@@ -21,7 +21,7 @@ $conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'd
 ```
 - Done
 
-### Setting Admin
+### Set Admin User
 - Register Your Account in the register page
 - Open phpMyAdmin
 - Goto to your database
@@ -29,6 +29,9 @@ $conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'd
 - Find your email, or whatsapp, and change the admin from `0` to `1`
 ![Screenshot 2021-01-26 003259](https://user-images.githubusercontent.com/56885763/105742466-1f3c0300-5f6e-11eb-95d5-0d22d7c89e23.png)
 - In the member area, log out and log in again to apply the change
+- After Relogin , Now you can Access Admin Area
+![Screenshot 2021-01-26 005323](https://user-images.githubusercontent.com/56885763/105745525-f49f7980-5f70-11eb-89a3-89e5588e66ca.png)
+
 
 
 
