@@ -5,6 +5,11 @@ include "./assets/php/functions.php";
 session_start();
 $rootlink = $GLOBALS['rootlink'];
 
+if (!isset($_SESSION["login"])) {
+    header("Location: " . $rootlink . "/login.php"); // change the location
+    exit;
+}
+
 $userID = $_SESSION['userid'];
 $userData = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM `user_data` WHERE `id` = '$userID'"));
 
