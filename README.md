@@ -12,6 +12,13 @@ $ mysql -u username -p database_name < file.sql
 $GLOBALS['rootlink'] = "YOUR SITE LINK";
 $GLOBALS['Site Title'] = "YOUR SITE TITLE";
 ```
+> functions.php
+```php 
+$conn = mysqli_connect('Host', 'username', 'password', 'dbname', 'port');
+
+//Example
+$conn = mysqli_connect('mysql.lesterlive.com', 'devone', 'CodeByDevone0912!', 'devone_mbr');
+```
 
 
 
